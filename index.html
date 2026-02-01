@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(86, 148, 86);
+        }
+
+        .link ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .link ul li a{
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .link ul li a:hover{
+            color: white;
+        }
+
+        .first{
+            padding: 10px 15%;
+            font-size: 15px;
+        }
+
+        .box{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 0px 20%;
+        }
+
+        .box-container{
+            padding: 20px;
+            border: 1px solid #333;
+            margin: 10px;
+            background-color: rgb(215, 212, 212);
+        }
+
+        .box-container h4{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Bruseels  Sprouts 4Eva</h2>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="">List o' Sprouts</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="first">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, corporis nihil. Laboriosam voluptatibus quia odio alias vero laborum explicabo enim obcaecati asperiores quos minus maxime, tempora dolor. Aperiam architecto dolores provident doloremque tempore consequuntur. Enim rem nemo, soluta totam itaque incidunt aperiam aut amet. Perspiciatis tempore adipisci totam corporis optio pariatur dolore molestiae voluptatem a! Corrupti, ullam debitis ea expedita sequi non iure optio nam, unde sunt accusamus repellat repellendus deleniti blanditiis, id iste provident pariatur natus! Provident rerum expedita aut et accusamus nobis! Corporis quod sit architecto harum unde vel labore temporibus impedit facere repellat.</p>
+        </section>
+
+        <section class="box">
+            <div class="box-container">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis quod minus? Maiores soluta eaque vero provident quo aperiam in?</p>
+            </div>
+            <div class="box-container">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis quod minus? Maiores soluta eaque vero provident quo aperiam in?</p>
+            </div>
+            <div class="box-container">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis quod minus? Maiores soluta eaque vero provident quo aperiam in?</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
